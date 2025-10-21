@@ -1,20 +1,20 @@
 const Footer = () => {
   return (
-    <footer className="bg-[#001931] p-[80px] pb-0">
-      <div className="flex justify-between footer sm:footer-horizontal  text-white  pb-[30px] border-b border-b-gray-400 ">
-        <nav>
+    <footer className="bg-[#001931] p-[10px] sm:p-[20px] lg:p-[40px] xl:p-[80px] pb-0">
+      <div className=" flex flex-col items-center sm:items-baseline sm:flex-row justify-between footer sm:footer-horizontal  text-white  pb-[30px] border-b border-b-gray-400 ">
+        <nav className="flex flex-col items-center sm:items-baseline">
           <h6 className="footer-title text-[18px]">Services</h6>
           <a className="link link-hover">Branding</a>
           <a className="link link-hover">Design</a>
           <a className="link link-hover">Marketing</a>
         </nav>
-        <nav>
+        <nav className="flex flex-col items-center sm:items-baseline">
           <h6 className="footer-title text-[18px]">Company</h6>
           <a className="link link-hover">About us</a>
           <a className="link link-hover">Contact</a>
           <a className="link link-hover">Jobs</a>
         </nav>
-        <nav>
+        <nav className="flex flex-col items-center sm:items-baseline">
           <h6 className="footer-title text-[18px]">Social</h6>
           <div className="grid grid-flow-col gap-4">
             <a>
