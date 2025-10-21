@@ -27,21 +27,21 @@ const Apps = () => {
     setAppCount(showApps.length);
   }, [showApps]);
   return (
-    <div className="px-[80px]">
-      <div className="pt-[80px]">
+    <div className="px-[10px] sm:px-[20px] lg:px-[40px] xl:px-[80px]">
+      <div className="pt-[10px] sm:pt-[20px] lg:pt-[40px] xl:pt-[80px]">
         <div>
-          <h1 className="text-[48px] font-bold text-[#001931] text-center pb-4">
+          <h1 className="text-[36px] sm:text-[38px] md:text-[42px] xl:text-[48px] font-bold text-[#001931] text-center pb-4">
             Our All Applications
           </h1>
-          <p className="text-[20px] text-[#627382] text-center pb-[40px]">
+          <p className="text-[16px] md:text-[18px] xl:text-[20px] text-[#627382] text-center pb-[20px] md:pb-[30px] xl:pb-[40px]">
             Explore All Apps on the Market developed by us. We code for Millions
           </p>
         </div>
         <div className="flex justify-between items-center pb-4 ">
-          <p className="text-[24px] font-semibold text-[#001931]">
+          <p className="text-[18px] sm:text-[20px] md:text-[24px] font-semibold text-[#001931]">
             ({appCount})Apps Found
           </p>
-          <label className="input">
+          <label className="input w-[150px] sm:w-[200px] md:w-[320px]">
             <svg
               className="h-[1em] opacity-50"
               xmlns="http://www.w3.org/2000/svg"
@@ -78,7 +78,7 @@ const Apps = () => {
             />
           </div>
         ) : appCount > 0 ? (
-          <div className="grid grid-cols-4 gap-4 place-items-center pb-[40px]">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 place-items-center pb-[40px]">
             {showApps.map((appData) => (
               <AppsCart
                 key={appData.id}

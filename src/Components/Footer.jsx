@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="bg-[#001931] p-[10px] sm:p-[20px] lg:p-[40px] xl:p-[80px] pb-0">
+    <footer className="bg-[#001931] p-[10px_10px_0_10px] sm:p-[20px_20px_0_20px] lg:p-[40px_40px_0_40px] xl:p-[80px_80px_0_80px] ">
       <div className=" flex flex-col items-center sm:items-baseline sm:flex-row justify-between footer sm:footer-horizontal  text-white  pb-[30px] border-b border-b-gray-400 ">
         <nav className="flex flex-col items-center sm:items-baseline">
           <h6 className="footer-title text-[18px]">Services</h6>
@@ -54,7 +54,7 @@ const Footer = () => {
         </nav>
       </div>
       <div className="py-[30px]">
-        <p className="text-center text-white">
+        <p className="text-center text-white text-[14px] sm:text-[16px]">
           Copyright © 2025 - All right reserved
         </p>
       </div>
