@@ -68,7 +68,7 @@ const Apps = () => {
           </label>
         </div>
         {searchLoading ? (
-          <div className="flex items-center justify-center pt-[100px]">
+          <div className="flex items-center justify-center py-[120px] md:py-[140px] lg:py-[160px] xl:py-[200px]">
             <Atom
               className=""
               color="#2700fa"

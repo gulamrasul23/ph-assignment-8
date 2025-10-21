@@ -26,7 +26,7 @@ const RootLayout = () => {
       <NavBar></NavBar>
       <main className="min-h-[calc(100vh-372px)] bg-[#F5F5F5]">
         {loading || pageLoading ? (
-          <div className="flex items-center justify-center pt-[200px]">
+          <div className="flex items-center justify-center pt-[130px] md:pt-[150px] lg:pt-[175px] xl:pt-[200px]">
             <Atom
               className=""
               color="#2700fa"
