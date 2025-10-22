@@ -31,4 +31,4 @@ Deployment: Netlify
 
 ## Deployment Link
 
- Link: [TS template](https://ph-8-assignment.netlify.app/) 
+ Link: [ph-8-assignment](https://ph-8-assignment.netlify.app/) 
