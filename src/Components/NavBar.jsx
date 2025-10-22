@@ -30,6 +30,7 @@ const NavBar = () => {
             <li>
               <NavLink
                 to="/home"
+                onClick={() => document.activeElement.blur()}
                 className={({ isActive }) =>
                   `${
                     isActive
@@ -44,6 +45,7 @@ const NavBar = () => {
             <li>
               <NavLink
                 to="/apps"
+                onClick={() => document.activeElement.blur()}
                 className={({ isActive }) =>
                   `${
                     isActive
@@ -58,6 +60,7 @@ const NavBar = () => {
             <li>
               <NavLink
                 to="/installation"
+                onClick={() => document.activeElement.blur()}
                 className={({ isActive }) =>
                   `${
                     isActive
