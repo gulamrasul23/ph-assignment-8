@@ -54,8 +54,8 @@ This application is a **pure front-end project**.
 
 1. **Clone the repository:**
 ```bash
-   git clone https://github.com/gulamrasul23/ph-assignment-8.git
-   cd ph-assignment-8
+   git clone https://github.com/gulamrasul23/hero-io.git
+   cd hero-io
    npm install
 ```
 2. Run the application:
