@@ -68,7 +68,7 @@ npm run dev
 ## Folder Structure
 
 ```plaintext
-ph-assignment-8/
+hero-io/
 ├── public/
 │   └── alldata.json
 ├── src/
