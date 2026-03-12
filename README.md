@@ -1,4 +1,5 @@
-# HERO.IO - Apps Management Website
+# HERO.IO 
+Apps Management Website
 
 ## Table of Contents
 
@@ -52,11 +53,11 @@ This application is a **pure front-end project**.
 ## Installation & Setup
 
 1. **Clone the repository:**
-   ```bash
+```bash
    git clone https://github.com/gulamrasul23/ph-assignment-8.git
    cd ph-assignment-8
    npm install
-  ```
+```
 2. Run the application:
 
 ```bash
