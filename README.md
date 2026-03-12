@@ -1,4 +1,4 @@
-# PH-8-Assignment
+# HERO.IO - HERO.ID is an apps management webapp
 
 Description
 
